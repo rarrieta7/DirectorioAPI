@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectorioAPI", "DirectorioAPI.csproj", "{BAFCDD13-F5FF-4AC4-B1D3-E7D41B8973EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectorioClient", "..\DirectorioClient\DirectorioClient.csproj", "{7752CDE7-579B-C0FE-7ABF-A92DCA7E1120}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAFCDD13-F5FF-4AC4-B1D3-E7D41B8973EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFCDD13-F5FF-4AC4-B1D3-E7D41B8973EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFCDD13-F5FF-4AC4-B1D3-E7D41B8973EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFCDD13-F5FF-4AC4-B1D3-E7D41B8973EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7752CDE7-579B-C0FE-7ABF-A92DCA7E1120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7752CDE7-579B-C0FE-7ABF-A92DCA7E1120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7752CDE7-579B-C0FE-7ABF-A92DCA7E1120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7752CDE7-579B-C0FE-7ABF-A92DCA7E1120}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D0A7BA2-42B4-4CEE-86FD-EB9DDF57E9E6}
+	EndGlobalSection
+EndGlobal
