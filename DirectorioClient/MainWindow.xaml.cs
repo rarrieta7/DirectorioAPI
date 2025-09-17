@@ -16,10 +16,12 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+		System.Net.ServicePointManager.ServerCertificateValidationCallback += 
+			(sender, cert, chain, sslPolicyErrors) => true;
 
-        var baseUrl = new Uri("http://localhost:7209/"); // Puerto del API
+        var baseUrl = new Uri("https://localhost:7209/"); // usa HTTP simple
+		_http = new HttpClient { BaseAddress = baseUrl };
 
-        _http = new HttpClient { BaseAddress = baseUrl };
 
         // bind al DataGrid
         dataGrid.ItemsSource = _personas;
